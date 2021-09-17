@@ -30,8 +30,8 @@ is_male = {
 }
 names = ['Оля', 'Петя', 'Вася', 'Маша']
 for name in is_male: 
-    gender = is_male.get(name)
-    if gender:
+    value = is_male.get(name)
+    if value:
        print(f'{name}: Мужской') 
     else:
        print(f'{name}: Женский') 
